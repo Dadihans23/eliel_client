@@ -29,13 +29,6 @@ class _ProfileState extends State<Profile> {
     late Future<List<Ticket>> futureTickets;
 
 
- @override
-  void initState() {
-    super.initState();
-    
-  }
-
-
 
 
   @override
@@ -48,10 +41,6 @@ class _ProfileState extends State<Profile> {
 
     final counterFavorites = favoritesProvider.favoriteEvents.length ;
     // final counterTicket = ticket.AllTicket.length ;
-
-    futureTickets = fetchTickets(tokenClient!);
-
-    
 
     return PopScope(
       canPop: false,
