@@ -55,10 +55,26 @@ dependencies:
   qr_flutter: ^4.0.0
   # uni_links: ^0.5.1
   # uni_links: ^0.5.3
+  flutter_launcher_icons: ^0.14.3
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+
+flutter_native_splash:
+  android: true
+  ios: true
+  color : "#1A237E" 
+  image : "lib/images/intro.png"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/images/logoevent.jpg"
+  adaptive_icon_background: "#ffffff"  # Facultatif pour Android
+  adaptive_icon_foreground: "lib/images/logoevent.jpg"  # Facultatif pour Android   
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
